@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "author": "Adriano Rosa",
+    "homepage": "https://adrianorosa.com",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "node_modules/webpack/bin/webpack.js --progress --hide-modules",
+        "watch": "npm run development -- --watch",
+        "hot": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+    },
+    "devDependencies": {
+        "@babel/core": "7.5.5",
+        "babel-loader": "8.0.6",
+        "css-loader": "2.1.1",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.12.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-flexbugs-fixes": "4.1.0",
+        "postcss-loader": "3.0.0",
+        "postcss-normalize": "7.0.1",
+        "postcss-preset-env": "6.7.0",
+        "postcss-safe-parser": "4.0.1",
+        "sass-loader": "^7.2.0",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7",
+        "webpack-dev-server": "^3.8.0",
+        "webpack-manifest-plugin": "2.0.4"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "hamburgers": "^1.1.3",
+        "jquery": "^3.4.1"
+    }
+}
